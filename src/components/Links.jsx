@@ -2,6 +2,8 @@ import React from 'react';
 import { HiLocationMarker } from "react-icons/hi";
 import { BsTelephonePlusFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 
 function Links() {
@@ -17,11 +19,11 @@ function Links() {
             <div className=" text-white text-3xl my-2 ">Links</div>
             <div>
                 <ul className="text-gray-500 space-y-2 pt-4 text-lg">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Resume</li>
-                    <li>Skills</li>
-                    <li>Contact</li>
+                    <li className="cursor-pointer">Home</li>
+                    <li className="cursor-pointer">About</li>
+                    <li className="cursor-pointer">Resume</li>
+                    <li className="cursor-pointer">Skills</li>
+                    <li className="cursor-pointer">Contact</li>
                 </ul>
             </div>
         </div>
@@ -30,16 +32,16 @@ function Links() {
             <div  className=" text-white text-3xl my-2">Have Questions?</div>
             <div className="flex flex-row gap-2 pt-4 text-lg">
                 <div >
-                    <HiLocationMarker className="text-gray-500 w-5 h-7 pt-2"/>
+                    <FaGithub className="text-gray-500 w-5 h-7 pt-2"/>
                 </div>
-                <div className="text-gray-500 pt-1">Kothapeta, Andhrapradesh</div>
+                <div className="text-gray-500 pt-1">Github</div>
             </div>
             
             <div className="flex flex-row gap-2 pt-4">
                 <div >
-                    <BsTelephonePlusFill className="text-gray-500 w-5 h-7"/>
+                    <FaLinkedin className="text-gray-500 w-5 h-7"/>
                 </div>
-                <div className="text-gray-500 ">+91 7842929762</div>
+                <div className="text-gray-500 pt-1 ">Linked In</div>
             </div>
            
             <div className="flex flex-row gap-2 pt-4">

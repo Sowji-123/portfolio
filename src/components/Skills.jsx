@@ -1,25 +1,46 @@
 import React from 'react'
-import Progess from './Progess'
+
 
 function Skills() {
   return (
-    <div className=" mt-24 flex flex-col justify-center items-center mx-auto">
-       <h2 className="text-white text-4xl font-bold mb-5">My Skills</h2>
-       <div className='flex flex-row justify-between w-[60%] mx-auto mt-3'>
-            <Progess progressPercentage={80} skill={"Python"} />
-            <Progess progressPercentage={95} skill={"HTML"} />
-       </div>
+    <div className=" mt-14 flex flex-col mx-32">
+       <h2 className=" text-4xl font-bold mb-5 text-[#E9D593]">My Skills</h2>
+       <div className='flex gap-20 w-full h-[600px]'>
+        <div className='flex flex-col gap-3'>
+        <div className='bg-white w-[90px] h-full'>
+          <div className='bg-black h-[10%] '></div>
+        </div>
+        <p className='text-center text-xl font-bold text-white'>PYTHON</p>
+        </div>
 
-       <div className='flex flex-row justify-between w-[60%] mx-auto mt-6'>
-            <Progess progressPercentage={40} skill={"JavaScript"} />
-            <Progess progressPercentage={85} skill={"CSS"} />
-       </div>
-        
-       <div className='flex flex-row justify-between w-[60%] mx-auto mt-6'>
-            <Progess progressPercentage={30} skill={"Reactjs"} />
-            <Progess progressPercentage={20} skill={"Figma"} />
-       </div>
+        <div className='flex flex-col gap-3'>
+        <div className='bg-white w-[90px] h-full'>
+          <div className='bg-black h-[20%] '></div>
+        </div>
+        <p className='text-center text-xl font-bold text-white'>HTML</p>
+        </div>
 
+        <div className='flex flex-col gap-3'>
+        <div className='bg-white w-[90px] h-full'>
+          <div className='bg-black h-[45%] '></div>
+        </div>
+        <p className='text-center text-xl font-bold text-white'>CSS</p>
+        </div>
+
+        <div className='flex flex-col gap-3'>
+        <div className='bg-white w-[90px] h-full'>
+          <div className='bg-black h-[45%] '></div>
+        </div>
+        <p className='text-center text-xl font-bold text-white'>JAVASCRIPT</p>
+        </div>
+
+        <div className='flex flex-col gap-3'>
+        <div className='bg-white w-[90px] h-full'>
+          <div className='bg-black h-[60%] '></div>
+        </div>
+        <p className='text-center text-xl font-bold text-white'>C</p>
+        </div>
+       </div>
     </div>
   )
 }

@@ -2,28 +2,26 @@ import './App.css'
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from './components/About';
-import Resume from './components/Resume';
+
 import Skills from './components/Skills';
-import Internship from './components/Internship';
+import Project from './components/Project';
 import Contact from './components/Contact';
-import Links from './components/Links';
-import Copyright from './components/Copyright';
+
 
 
 
 function App() {
  
   return (
-   <div className="bg-black">
+   <div className="bg-[#17637E]">
    <NavBar />
    <Home />
    <About />
-   <Resume />
+   
    <Skills />
-   <Internship />
+   <Project />
    <Contact />
-   <Links />
-   <Copyright />
+   
   
    </div>
   )

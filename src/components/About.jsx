@@ -2,60 +2,50 @@ import React from "react";
 
 function About() {
   return (
-    <div className=" w-[75%]  flex flex-col items-end justify-center mx-auto mt-20">
+    <div className=" w-[75%]  flex flex-col mx-32 mt-14">
       <div className="flex justify-start flex-col w-[60%]">
-        <p className="text-white text-4xl font-bold ">About Me</p>
-        <p className=" text-gray-500 pt-5 text-lg">I'm a passionate student,</p>
-        <p className=" text-gray-500 text-lg">
-          Pursuing my bachelors in computer science and engineering from
-          Kakinada Institute Of Engineering And Technologies For Womens. I have
-          completed Python. Currently focusing on MERN stack.
+        <p className="text-[#E9D593] text-4xl font-extrabold ">ABOUT ME</p>
+        
+        <p className=" text-[#E9D593] text-xl mt-4 font-medium ">
+        I'm a second-year CSE graduate,passionate about technology. I have a self-motivated and can-do attitude,
+        in challenging and dynamic environments.seeking a competitive position to enhance my skills& contribute 
+        to a professional organization.I'm very much passionate to learn new stuff that interests me and can help 
+        me to get better. .
         </p>
         <div className="mt-14">
           <div className="flex flex-column ">
-            <div className="text-white w-[200px] text-xl font-bold">Name:</div>
-            <div className="text-gray-500 text-xl "> Mounika</div>
+            <div className="text-white w-[200px] text-2xl font-bold">Name:</div>
+            <div className="text-white text-2xl "> sowjanya chelluri</div>
           </div>
 
-          <div className="flex flex-column mt-4">
-            <div className="text-white w-[200px] text-xl font-bold">
+          <div className="flex flex-column mt-7">
+            <div className="text-white w-[200px] text-2xl font-bold">
               Date Of Birth:
             </div>
-            <div className="text-gray-500 text-xl"> 20 April, 2005</div>
+            <div className="text-white text-2xl">03-11-2003</div>
           </div>
 
-          <div className="flex flex-column mt-4">
-            <div className="text-white w-[200px] text-xl font-bold">
-              Address:
-            </div>
-            <div className="text-gray-500 text-xl">
-              kothapeta, Andhrapradesh
-            </div>
-          </div>
+          
+          
 
-          <div className="flex flex-column mt-4">
-            <div className="text-white w-[200px] text-xl font-bold">Email:</div>
-            <div className="text-gray-500 text-xl">
-              mounikarankireddy096@gmail.com
+          <div className="flex flex-column mt-7">
+            <div className="text-white w-[200px] text-2xl font-bold">Email:</div>
+            <div className="text-white text-2xl">
+              sowjanya.chelluri03@gmail.com
             </div>
           </div>
 
-          <div className="flex flex-column mt-4">
-            <div className="text-white w-[200px] text-xl font-bold">Phone:</div>
-            <div className="text-gray-500 text-xl"> +91 7842929762</div>
+          <div className="flex flex-column mt-7">
+            <div className="text-white w-[200px] text-2xl font-bold">Phone:</div>
+            <div className="text-white text-2xl"> +91 8463991180</div>
           </div>
 
-          <div className="mt-10">
-            <a
-              target="_blank"
-              className="bg-[#00ABF0] text-black px-4 py-3 rounded-3xl cursor-pointer"
-              rel="ro referrer no-opener"
-              href="https://drive.google.com/file/d/1Dx2L66g8q4Rq2CZtorQf9FD4FpVYY_GW/view?usp=drivesdk"
-            >DOWNLOAD CV</a>
-          </div>
+          
         </div>
       </div>
+      
     </div>
+    
   );
 }
 
